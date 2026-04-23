@@ -1,0 +1,5 @@
+.card { background:white; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden; transition:transform .18s, box-shadow .18s; }
+.card:hover { transform:translateY(-4px); box-shadow:0 6px 20px rgba(0,0,0,0.08); }
+.header { padding:14px 16px; border-bottom:1px solid #eef3f7; font-weight:700; }
+.content { padding:16px; }
+.footer { padding:12px 16px; border-top:1px solid #eef3f7; background:#fafbfc; }

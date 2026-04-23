@@ -1,0 +1,5 @@
+.box { background:#fdecea; border:1px solid #f5c6cb; padding:16px; border-radius:8px; text-align:center; color:#a94442; }
+.icon { font-size:24px; margin-bottom:8px; }
+.msg { margin-bottom:10px; }
+.retry { background:#e74c3c; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+.retry:hover { opacity:.95; }

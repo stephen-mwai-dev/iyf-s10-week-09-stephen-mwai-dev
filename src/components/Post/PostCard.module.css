@@ -1,0 +1,17 @@
+.card { min-height:160px; display:flex; flex-direction:column; justify-content:space-between; }
+.titleLink { text-decoration:none; color:inherit; }
+.title { margin:0 0 10px 0; color:var(--text-color); font-size:18px; }
+.excerpt { color:#6b7b86; font-size:14px; line-height:1.5; margin-bottom:12px; }
+.meta { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+.author { font-size:14px; }
+.actions { display:flex; gap:8px; align-items:center; flex-wrap: wrap; }
+.readMore { text-decoration:none; }
+.likes {
+  font-size: 13px;
+  color: var(--text-color);
+  background: #edeff7;
+  border-radius: 6px;
+  padding: 2px 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

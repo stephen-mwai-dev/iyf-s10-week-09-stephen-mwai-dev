@@ -1,0 +1,7 @@
+.wrapper { margin-bottom:14px; }
+.label { display:block; font-size:14px; font-weight:600; margin-bottom:6px; color:#2c3e50; }
+.required { color:#e74c3c; margin-left:6px; }
+.input { width:100%; padding:10px 12px; border:2px solid #e9eef2; border-radius:6px; font-size:15px; transition:box-shadow .15s; }
+.input:focus { outline:none; border-color:#3498db; box-shadow:0 4px 16px rgba(52,152,219,0.08); }
+.error { border-color:#e74c3c; }
+.errorText { color:#e74c3c; font-size:13px; margin-top:6px; }

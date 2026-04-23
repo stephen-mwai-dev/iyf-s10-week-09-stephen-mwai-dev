@@ -1,0 +1,5 @@
+.form { background:white; padding:18px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.04); }
+.field { margin-bottom:12px; display:flex; flex-direction:column; }
+.label { font-weight:600; font-size:14px; margin-bottom:6px; color:#2c3e50; }
+.textarea { padding:12px; border:2px solid #eef3f7; border-radius:8px; resize:vertical; font-family:inherit; }
+.actions { margin-top:12px; display:flex; gap:12px; }
