@@ -1,4 +1,4 @@
-# Week 9: HubConnect - Multi-Page React Application
+# HubConnect - Multi-Page React Application
 
 ## Author
 - **Name:** Stephen Mwai Dev
@@ -53,7 +53,6 @@ This project showcases mastery of:
 - Custom `usePostLikes` hook for like count management and toggle logic
 - Custom `useForm` hook for form state and validation handling
 - CSS Modules for component-scoped styling (no global conflicts)
-- African developer names display (Stephen Njuguna, Mercy Njeri, Wyclif Ochieng, Yahya Said, etc.)
 - Responsive grid layout with CSS media queries
 
 ## How to Run
@@ -129,35 +128,37 @@ src/
 ├── App.css
 └── main.jsx
 Lessons Learned
-React & Hooks
-Mastered functional components and React Hooks (useState, useEffect, useCallback, useContext)
-Built custom hooks to abstract complex logic and promote code reusability
-Understood dependency arrays and cleanup functions in useEffect
-Routing & Navigation
-Implemented client-side routing with React Router v6
-Learned nested routes, route parameters, and navigation with useNavigate and useParams
-Understood the Outlet component and layout wrapping patterns
-State Management
-Managed both local component state and global browser storage (localStorage)
-Learned when to use useState vs. custom hooks vs. localStorage
-Implemented controlled components for form inputs
-API & Data Fetching
-Integrated with JSONPlaceholder mock API
-Handled loading, error, and success states gracefully
-Learned to cancel fetch requests to prevent memory leaks
-Styling & Responsive Design
-Mastered CSS Modules for scoped styling without conflicts
-Created responsive layouts using CSS Grid and Flexbox
-Implemented dark mode using CSS variables and class toggling
-Used media queries to optimize for mobile, tablet, and desktop
-Component Architecture
-Built reusable, composable components (Button, Input, Card, LoadingSpinner, ErrorMessage)
-Practiced prop drilling and component composition
-Created a consistent design system across the app
+- React & Hooks
+- Mastered functional components and React Hooks (useState, useEffect, useCallback, useContext)
+- Built custom hooks to abstract complex logic and promote code reusability
+- Understood dependency arrays and cleanup functions in useEffect
+- Routing & Navigation
+- Implemented client-side routing with React Router v6
+- Learned nested routes, route parameters, and navigation with useNavigate and useParams
+- Understood the Outlet component and layout wrapping patterns
+-State Management
+- Managed both local component state and global browser storage (localStorage)
+- Learned when to use useState vs. custom hooks vs. localStorage
+- Implemented controlled components for form inputs
+- API & Data Fetching
+- Integrated with JSONPlaceholder mock API
+- Handled loading, error, and success states gracefully
+- Learned to cancel fetch requests to prevent memory leaks
+- Styling & Responsive Design
+- Mastered CSS Modules for scoped styling without conflicts
+- Created responsive layouts using CSS Grid and Flexbox
+- Implemented dark mode using CSS variables and class toggling
+- Used media queries to optimize for mobile, tablet, and desktop
+- Component Architecture
+- Built reusable, composable components (Button, Input, Card, LoadingSpinner, ErrorMessage)
+- Practiced prop drilling and component composition
+- Created a consistent design system across the app
+
 Developer Experience
-Used Vite for fast development and optimized builds
-Configured ESLint for code quality
-Practiced Git workflows and meaningful commit messages
+- Used Vite for fast development and optimized builds
+- Configured ESLint for code quality
+- Practiced Git workflows and meaningful commit messages
+
 Challenges Faced
 Challenge 1: Missing CSS Module Files
 Problem: The app crashed with "Cannot find module" errors when PostList.module.css was missing.
