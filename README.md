@@ -127,6 +127,7 @@ src/
 ├── App.jsx
 ├── App.css
 └── main.jsx
+
 Lessons Learned
 - React & Hooks
 - Mastered functional components and React Hooks (useState, useEffect, useCallback, useContext)
